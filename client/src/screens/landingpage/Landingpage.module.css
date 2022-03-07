@@ -1,0 +1,44 @@
+
+.maincontainer{
+  display: flex;
+  flex-direction:row ;
+align-items: center;
+/* margin-top: 100px; */
+height: 100vh;
+}
+.textcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 60%;
+  padding-left: 200px;
+  /* width: 100%; */
+  margin-left: 50px;
+}
+.hello{
+  color: #65b99e;
+  font-family: 'Ronduit Capitals';
+  margin: 0 0;
+}
+.elvedin{
+  font-family: 'Ronduit Capitals';
+  color: white;
+  margin: 0 0;
+}
+.developer{
+  color: white;
+  font-family: 'Ronduit Capitals';
+  font-size: 20px;
+  margin: 0 0;
+}
+.imgcontainer{
+  /* max-width: 40%; */
+  /* position: relative; */
+  margin: 0 0;
+}
+.img{
+  /* margin: 0 99px 292px 441px; */
+  /* margin: 0 0; */
+  margin-left: 20px;
+  opacity: 0.86;
+}
