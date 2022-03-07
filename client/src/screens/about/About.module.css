@@ -1,0 +1,29 @@
+.maincontainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  height: 100vh;
+ 
+}
+.workline{
+  display: flex;
+  justify-content: flex-end;
+  /* position: absolute; */
+  border-bottom: 4px solid #65b99e;
+  width: 20vw;
+  margin-top: 100px;
+}
+.about{
+  width: 143px;
+  height: 38px;
+ margin-top: 50px;
+  font-family: FirstInLine;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.55px;
+  text-align: justify;
+  color: #65b99e;
+}
