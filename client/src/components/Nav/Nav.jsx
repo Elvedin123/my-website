@@ -17,7 +17,7 @@ export default function Nav() {
       <div className={navcss.icons}>
         <a className={navcss.icon} href="https://www.linkedin.com/in/elvedincekic12/" target="_blank"> <RiLinkedinBoxLine /></a>
         <a className={navcss.icon} href="https://github.com/Elvedin123" target="_blank"> <RiGithubLine /></a>
-        <a className={navcss.icon} href="#contact" target="_blank"> <GoMail /></a>
+        <a className={navcss.icon} href="#contact" > <GoMail /></a>
       </div>
 
     </div>
