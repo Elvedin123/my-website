@@ -71,9 +71,14 @@ margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 1000px;
+  width: 800px;
+  margin-left: 300px;
 }
 .skilltitle{
   display: flex;
   color: #65b99e;
+}
+.tech{
+  display: flex;
+  color: white;
 }
