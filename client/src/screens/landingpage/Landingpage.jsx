@@ -2,6 +2,7 @@ import React from 'react'
 import landingpagecss from "./Landingpage.module.css"
 import Nav from '../../components/Nav/Nav'
 import Projects from '../projects/Projects'
+import About from '../about/About'
 export default function Landingpage() {
   return (
     <div className={landingpagecss.home}>
@@ -17,6 +18,7 @@ export default function Landingpage() {
       </div>
       <Nav />
       <Projects />
+      <About />
     </div>
   )
 }
