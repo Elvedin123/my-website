@@ -1,4 +1,6 @@
 .maincontainer{
+  display: flex;
+  flex-direction: column;
   margin-top: 50vh;
   height: 100vh;
   position: relative;
@@ -62,12 +64,13 @@
 }
 .rightcontainer{
   position: relative ;
-  margin-left: 70px;
+  margin-left: 100px;
   margin-top: 300px;
 
 }
 .mainlink{
   display: flex;
+  width: 420px;
   justify-content: flex-end;
 }
 .gameterestlink{
@@ -78,9 +81,9 @@
   
 }
 .linkcontainer{
-  border-bottom: 4px solid #65b99e;
+  border-bottom: 3px solid #65b99e;
    margin: 0 0;
-  width: 120px;
+  width: 150px;
 }
 .visit{
   margin: 0 0;
@@ -88,6 +91,9 @@
 }
 .toolscontainer{
   width: 100px;
+  position: absolute;
+  margin-left: 100px;
+  margin-bottom: 50px;
 
 }
 .tools{
@@ -95,5 +101,12 @@
 text-decoration: underline;
 }
 .imgcontainer{
+  display: flex;
+  flex-direction: row;
   width: 40px;
+
+}
+.league{
+  margin: 0 0;
+  font-size: 15px;
 }
