@@ -70,6 +70,71 @@ export default function Projects() {
 
         </div>
       </div>
+      <div>
+
+        <div className={projectscss.gameterest}>
+          <div className={projectscss.projectcontainer}>
+            <div className={projectscss.titlecontainer}>
+              <h1 className={projectscss.title}>myJournal</h1>
+            </div>
+
+            <p className={projectscss.description}>   Full stack application that is to be used as a diary to store memories that you can save and always look back to. The functionality includes a form where you can input a brief title for your entry, the topic you choose to talk about, your data entry and when the event occured. In addition the user is capable of editing said entries, delete them and add new ones which will all be stored and saved in myJournal's home page (filtered by date) which provides the user easy access.</p>
+          </div>
+          <div className={projectscss.rightcontainer}>
+            <div className={projectscss.compcontainer}>
+              <img className={projectscss.myjournal} src="/myJournal.png" alt="myjournal" />
+            </div>
+            <div className={projectscss.mainlink}>
+              <div className={projectscss.linkcontainer}>
+                <a href="https://gameterest2.herokuapp.com/" target="_blank" className={projectscss.gameterestlink}><h1 className={projectscss.league}>Visit myjournal</h1></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={projectscss.toolscontainer}>
+          <h3 className={projectscss.tools}>Tools</h3>
+          <div className={projectscss.imgcontainer}>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+          </div>
+
+        </div>
+      </div>
+      <div>
+
+        <div className={projectscss.gameterest}>
+          <div className={projectscss.projectcontainer}>
+            <div className={projectscss.titlecontainer}>
+              <h1 className={projectscss.title}>League o vibes</h1>
+            </div>
+
+            <p className={projectscss.description}>    A interactive social media site for league players! Players can create posts of their ideal team that renders to the home page! Other users can interact with the posts by giving a rating in which they believe is suitable for the team comp posted. Users can get access to all the champions via an external api, allowing them to browse through the champions to select their suitable team for show!</p>
+          </div>
+          <div className={projectscss.rightcontainer}>
+            <div className={projectscss.compcontainer}>
+              <img className={projectscss.myjournal} src="/leagueovibes.png" alt="myjournal" />
+            </div>
+            <div className={projectscss.mainlink}>
+              <div className={projectscss.linkcontainer}>
+                <a href="https://gameterest2.herokuapp.com/" target="_blank" className={projectscss.gameterestlink}><h1 className={projectscss.league}>Visit League o vibes</h1></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={projectscss.toolscontainer}>
+          <h3 className={projectscss.tools}>Tools</h3>
+          <div className={projectscss.imgcontainer}>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" />
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+          </div>
+
+        </div>
+      </div>
     </div>
   )
 }

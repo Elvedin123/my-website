@@ -68,6 +68,9 @@
   margin-top: 300px;
 
 }
+.compcontainer{
+  width: 420px;
+}
 .mainlink{
   display: flex;
   width: 420px;
@@ -109,4 +112,7 @@ text-decoration: underline;
 .league{
   margin: 0 0;
   font-size: 15px;
+}
+.myjournal{
+  width: 400px;
 }
