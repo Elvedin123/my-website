@@ -3,6 +3,7 @@ import landingpagecss from "./Landingpage.module.css"
 import Nav from '../../components/Nav/Nav'
 import Projects from '../projects/Projects'
 import About from '../about/About'
+import Contact from '../../components/Contact/Contact'
 export default function Landingpage() {
   return (
     <div className={landingpagecss.home}>
@@ -19,6 +20,7 @@ export default function Landingpage() {
       <Nav />
       <Projects />
       <About />
+      <Contact />
     </div>
   )
 }
