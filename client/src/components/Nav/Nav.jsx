@@ -11,12 +11,12 @@ export default function Nav() {
         <a className={navcss.links} href="#home">Home</a>
         <a className={navcss.links} href="#projects">Projects</a>
         <a className={navcss.links} href="#about">About</a>
-        <a className={navcss.links} href="#resume">resume</a>
+        <a className={navcss.links} href="../../resume.pdf">resume</a>
         <a className={navcss.links} href="#contact">contact</a>
       </div>
       <div className={navcss.icons}>
-        <a className={navcss.icon} href="https://www.linkedin.com/in/elvedincekic12/" target="_blank"> <RiLinkedinBoxLine /></a>
-        <a className={navcss.icon} href="https://github.com/Elvedin123" target="_blank"> <RiGithubLine /></a>
+        <a className={navcss.icon} href="https://www.linkedin.com/in/elvedincekic12/" target="_blank" rel="noreferrer"> <RiLinkedinBoxLine /></a>
+        <a className={navcss.icon} href="https://github.com/Elvedin123" target="_blank" rel="noreferrer"> <RiGithubLine /></a>
         <a className={navcss.icon} href="#contact" > <GoMail /></a>
       </div>
 

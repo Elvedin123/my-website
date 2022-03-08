@@ -21,7 +21,7 @@ export default function Projects() {
             </div>
             <div className={projectscss.mainlink}>
               <div className={projectscss.linkcontainer}>
-                <a href="https://gameterest2.herokuapp.com/" target="_blank" className={projectscss.gameterestlink}><h1 className={projectscss.visit}>Visit Gameterest</h1></a>
+                <a href="https://gameterest2.herokuapp.com/" target="_blank" rel="noreferrer" className={projectscss.gameterestlink}><h1 className={projectscss.visit}>Visit Gameterest</h1></a>
               </div>
             </div>
           </div>
@@ -29,10 +29,11 @@ export default function Projects() {
         <div className={projectscss.toolscontainer}>
           <h3 className={projectscss.tools}>Tools</h3>
           <div className={projectscss.imgcontainer}>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt='react' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt='mongodb' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+              alt='css' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt='html' />
           </div>
 
         </div>
@@ -55,7 +56,7 @@ export default function Projects() {
             </div>
             <div className={projectscss.mainlink}>
               <div className={projectscss.linkcontainer}>
-                <a href="https://gameterest2.herokuapp.com/" target="_blank" className={projectscss.gameterestlink}><h1 className={projectscss.league}>Visit League O Vibes</h1></a>
+                <a href="https://elvedin123.github.io/P1/" target="_blank" rel="noreferrer" className={projectscss.gameterestlink}><h1 className={projectscss.league}>Visit League O Vibes</h1></a>
               </div>
             </div>
           </div>
@@ -63,9 +64,11 @@ export default function Projects() {
         <div className={projectscss.toolscontainer}>
           <h3 className={projectscss.tools}>Tools</h3>
           <div className={projectscss.imgcontainer}>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt='javascript' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+              alt='css' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+              alt='html' />
           </div>
 
         </div>
@@ -86,7 +89,7 @@ export default function Projects() {
             </div>
             <div className={projectscss.mainlink}>
               <div className={projectscss.linkcontainer}>
-                <a href="https://gameterest2.herokuapp.com/" target="_blank" className={projectscss.gameterestlink}><h1 className={projectscss.league}>Visit myjournal</h1></a>
+                <a href="https://e-journal.netlify.app/" target="_blank" rel="noreferrer" className={projectscss.gameterestlink}><h1 className={projectscss.league}>Visit myjournal</h1></a>
               </div>
             </div>
           </div>
@@ -94,9 +97,10 @@ export default function Projects() {
         <div className={projectscss.toolscontainer}>
           <h3 className={projectscss.tools}>Tools</h3>
           <div className={projectscss.imgcontainer}>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt='react' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt='css' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+              alt='html' />
           </div>
 
         </div>
@@ -117,7 +121,7 @@ export default function Projects() {
             </div>
             <div className={projectscss.mainlink}>
               <div className={projectscss.linkcontainer}>
-                <a href="https://gameterest2.herokuapp.com/" target="_blank" className={projectscss.gameterestlink}><h1 className={projectscss.league}>Visit League o vibes</h1></a>
+                <a href="https://modest-cray-0cd808.netlify.app" target="_blank" rel="noreferrer" className={projectscss.gameterestlink}><h1 className={projectscss.league}>Visit League o vibes</h1></a>
               </div>
             </div>
           </div>
@@ -125,12 +129,11 @@ export default function Projects() {
         <div className={projectscss.toolscontainer}>
           <h3 className={projectscss.tools}>Tools</h3>
           <div className={projectscss.imgcontainer}>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" />
-
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt='react' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" alt='ruby' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" alt='postgresql' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt='css' />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt='html' />
           </div>
 
         </div>
