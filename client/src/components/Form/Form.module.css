@@ -26,6 +26,9 @@ border-radius: 11px;
   margin-top: 490px;
   margin-left: 20px;
 }
+.button:hover{
+  cursor:pointer;
+}
 .button-value{
   font-family: FirstInLine;
   color: #65b99e;
