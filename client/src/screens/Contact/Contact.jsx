@@ -6,6 +6,7 @@ export default function Contact() {
       <div className={contactcss.workline}>
         <span className={contactcss.contact}>contact</span>
       </div>
+      <span className={contactcss.formtitle}> LETS GET IN TOUCH!</span>
     </div>
   )
 }
